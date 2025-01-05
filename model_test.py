@@ -29,7 +29,7 @@ st.title("Sign Language Recognition")
 st.text("Upload a video feed or use your webcam to predict sign language characters.")
 
 # Capture webcam feed
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 stframe = st.empty()  # Create a placeholder for the video frame
 
 while cap.isOpened():
